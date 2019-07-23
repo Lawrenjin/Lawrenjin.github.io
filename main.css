@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #312626 50%, #150e0e 90%) #312626 fixed;
+    background: linear-gradient(to bottom, #312626 50%, #150e0e 90%) #150e0e fixed;
 }
 
 header {
@@ -530,13 +530,14 @@ a.SideA:hover {
         height: 220px;
     }
 
-    h1 {
+    h1,
+    #pGallery .index-intro h1, #pContent .index-intro h1 {
         left: 10%;
         top:115;
         font-size: 28px;
     }
 
-    .main-content {
+    #pContent .main-content {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -577,13 +578,22 @@ a.SideA:hover {
         width:100%;
     }
 
+    .main-content {
+        padding-left:0px;
+        padding-right:0px;
+    }
+
     #pGallery .main-content {
+        padding-right:10px;
+        padding-left:10px;
+    }
+
+    #pGallery .main-content,
+    .main-content {
         width:100%;
         min-width:unset;
         max-width: 100%;
         flex-direction: column;
-        padding-left:10px;
-        padding-right:10px;
     }
 
     .preview:hover {
@@ -594,16 +604,30 @@ a.SideA:hover {
     .preview {
         width:100%;
         height:unset;
+        margin-left:0px;
+        margin-right:0px;
+        margin-top:5px;
+        margin-bottom:0px;
     }
+
+    .preview::after {
+        animation:none;
+        -webkit-animation: none;
+       -moz-animation: none;
+       -o-animation: none;
+       border:0px;
+    }
+
 
     .preview::after:hover {
         display:none;
         visibility: hidden;
+        opacity: 0;
     }
 
     .preview::before {
         top:55%;
-        left: 45%;
+        left: 50%;
     }
 
 
