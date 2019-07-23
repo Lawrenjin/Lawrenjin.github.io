@@ -497,8 +497,22 @@ a.SideA:hover {
         position:fixed;
     }
 
+    body {
+        overflow-x:hidden;
+    }
+
     .main-nav {
         width:100%;
+        text-align: center;
+    }
+
+    .main-nav ul li > a:link, .main-nav ul li > a:visited {
+        font-size:18px;
+    }
+
+    .main-nav ul li {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .main-social {
@@ -519,6 +533,7 @@ a.SideA:hover {
     h1 {
         left: 10%;
         top:115;
+        font-size: 28px;
     }
 
     .main-content {
@@ -567,14 +582,18 @@ a.SideA:hover {
         min-width:unset;
         max-width: 100%;
         flex-direction: column;
+        padding-left:10px;
+        padding-right:10px;
     }
 
     .preview:hover {
-        height:95%
+        height:unset;
+        width:100%;
     }
 
     .preview {
-        height:95%;
+        width:100%;
+        height:unset;
     }
 
     .preview::after:hover {
@@ -586,7 +605,6 @@ a.SideA:hover {
         top:55%;
         left: 45%;
     }
-
 
 
 }
