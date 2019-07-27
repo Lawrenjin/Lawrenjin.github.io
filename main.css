@@ -433,7 +433,7 @@ a.SideA:hover {
     background-color: rgba(38, 28, 28, 0.8);
     padding: 15px;
     top: 55%;
-    width: 280px;
+    max-width: 180px;
     text-align:left;
     box-shadow: inset 0px 0px 4px #fffae3;
     -webkit-box-shadow: inset 0px 0px 4px #fffae3;
@@ -637,6 +637,7 @@ a.SideA:hover {
     .preview::before {
         top:55%;
         left: 70%;
+        width: 280px;
     }
 
 
