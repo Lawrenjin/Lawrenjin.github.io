@@ -638,6 +638,7 @@ a.SideA:hover {
         top:55%;
         left: 70%;
         width: 280px;
+        max-width: unset;
     }
 
 
