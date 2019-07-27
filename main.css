@@ -639,6 +639,7 @@ a.SideA:hover {
         left: 85%;
         width: 70%;
         max-width: unset;
+        animation:none;
 
     }
 
