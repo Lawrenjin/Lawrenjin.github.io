@@ -637,7 +637,7 @@ a.SideA:hover {
     .preview::before {
         top:55%;
         left: 85%;
-        width: 280px;
+        width: 250px;
         max-width: unset;
     }
 
