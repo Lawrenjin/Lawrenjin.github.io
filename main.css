@@ -640,7 +640,7 @@ a.SideA:hover {
         width: 70%;
         max-width: unset;
         animation:none;
-        display:none;
+        display:none!important;
         visibility: hidden;
         opacity: 0;
 
