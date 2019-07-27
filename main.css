@@ -636,22 +636,13 @@ a.SideA:hover {
 
     .preview::before {
         top:50%;
-        left: 105%;
-        width: 100%;
+        left: 90%;
+        width: 60%;
         max-width: unset;
 
     }
 
-    @keyframes smooth-up {
-        0%   {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    
-    
-    }
+
 
 
 }
