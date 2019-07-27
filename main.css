@@ -192,7 +192,7 @@ h1 {
 }
 
 .updates-block article > p {
-    padding-bottom: 18px;
+    padding-bottom: 10px;
     color:#8e8d88;
     padding-right: 40px;
 }
@@ -243,9 +243,10 @@ a.SideA:hover {
 }
 
 .news-block article {
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     margin-bottom:10px;
     box-shadow: 0px 0px 4px #d4c1c1;
     border: 1px solid #FFF;
@@ -260,12 +261,16 @@ a.SideA:hover {
 }
 
 .news-block article > p {
-    padding-bottom:5px;
-    padding-right:5px;
-    padding-left:5px;
+    padding-bottom:10px;
     text-align:justify;
     font-size:14px;
-    line-height: 1.9;
+    line-height: 1.7;
+}
+
+.news-block article > p:last-child {
+    border-top: 3px double #322626;
+    padding-bottom: 0px;
+    font-size:12px;
 }
 
 .news-block article h2 {
@@ -275,12 +280,11 @@ a.SideA:hover {
     font-weight: 500;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 40px;
+    padding-left: 8px;
     border-bottom: 3px double #fffae3;
     border-top: 3px double #fffae3;
     border-right: 0;
-    margin-top: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     background-color: #332727;
     background-image: url(src/n-bg.jpg);
     background-repeat: no-repeat;
@@ -429,7 +433,7 @@ a.SideA:hover {
     background-color: rgba(38, 28, 28, 0.8);
     padding: 15px;
     top: 55%;
-    max-width:160px;
+    width: 280px;
     text-align:left;
     box-shadow: inset 0px 0px 4px #fffae3;
     -webkit-box-shadow: inset 0px 0px 4px #fffae3;
@@ -499,6 +503,11 @@ a.SideA:hover {
 
     body {
         overflow-x:hidden;
+    }
+
+    .copyright {
+        text-align:center;
+        padding-right:0;
     }
 
     .main-nav {
@@ -627,7 +636,7 @@ a.SideA:hover {
 
     .preview::before {
         top:55%;
-        left: 50%;
+        left: 70%;
     }
 
 
