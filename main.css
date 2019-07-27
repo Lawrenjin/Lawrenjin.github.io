@@ -639,6 +639,18 @@ a.SideA:hover {
         left: 105%;
         width: 100%;
         max-width: unset;
+
+    }
+
+    @keyframes smooth-up {
+        0%   {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    
+    
     }
 
 
